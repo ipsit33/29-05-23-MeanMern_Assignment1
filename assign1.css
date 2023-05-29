@@ -1,0 +1,13 @@
+#gp1{
+    width: 100%;
+    background-color: lemonchiffon;
+    display: grid;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+#gp2{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
